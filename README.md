@@ -1,2 +1,2 @@
-# studentnote
-studentnote
+# StudentsNOte
+Students
