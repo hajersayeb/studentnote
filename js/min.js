@@ -20,7 +20,7 @@ function validateFullName(fullName){
         return "Full name must be between 3 and 20 characters long.";
     }
     // Check the format of the full name.
-    if (!/^[a-zA-Z]+$/.test(fullName)){
+    if (!/^[a-zA-Z ]+$/.test(fullName)){
         return "Full name must contain only letters and spaces.";
     }
     // If the full name passes all of the validation rules, return null.
@@ -45,3 +45,6 @@ function validateDate(date){
     // If the date passes all of the validation rules, return null.
     return null;
 }
+submit.addEventListener('click', (event) => {
+console.log(fullName.value);
+})
